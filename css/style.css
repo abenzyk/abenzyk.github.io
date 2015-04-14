@@ -1,5 +1,32 @@
-body {
-	background: blue; 
-	}
-	h1, p {color: white
-	}
+body {background: #000;
+	font-family: helvetica, sans-serif;
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 48px;
+	line-height: 90%;
+	color: #FFF8E0;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-size: 28px;
+	color: #0580B1;
+}
+
+p {
+	color: #0580B1;
+}
+
+ul {
+	text-align: left;
+	color: #0580B1;
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	color: #0580B1;
+}
