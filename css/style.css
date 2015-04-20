@@ -1,28 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha);
+
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+
 body {background: #000;
-	font-family: helvetica, sans-serif;
 }
+
 h1 {
+	font-family: 'Neucha', cursive;
 	font-weight: bold;
 	text-align: center;
-	font-size: 48px;
+	font-size: 56px;
 	line-height: 90%;
 	color: #FFF8E0;
 }
 
 #slogan {
+	font-family: 'Nixie One', cursive;
 	font-style: italic;
 	text-align: center;
-	font-size: 28px;
-	color: #0580B1;
+	font-size: 24px;
+	color: #FFF8E0;
 }
 
 p {
 	color: #0580B1;
+	font-size: 1.5em;
+	font-family: 'Nixie One', cursive;
 }
 
 ul {
 	text-align: left;
 	color: #0580B1;
+	font-size: 1.8em;
+	font-family: 'Nixie One', cursive;
 }
 
 a {
