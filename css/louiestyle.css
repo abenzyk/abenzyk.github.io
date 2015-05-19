@@ -3,20 +3,20 @@ body {
 }
 
 #logo {
-	display: block;
-	margin: 20px, 20px;
-	padding: 10px, 10px;
-	width: 20px;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	width: 35%;
 }
 
 nav {
 	font-size: 1em;
 	float: right;
-	clear: both;
 	text-align: center;
 	border bottom: #000 solid thin;
 	padding: 10px;
-
 }
 
 nav a {
