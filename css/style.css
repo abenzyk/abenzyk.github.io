@@ -2,41 +2,137 @@
 
 @import url(https://fonts.googleapis.com/css?family=Nixie+One);
 
-body {background: #000;
+body {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
 }
 
 h1 {
 	font-family: 'Neucha', cursive;
 	font-weight: bold;
 	text-align: center;
-	font-size: 56px;
-	line-height: 90%;
-	color: #FFF8E0;
-}
-
-#slogan {
-	font-family: 'Nixie One', cursive;
-	font-style: italic;
+	font-size: 4.5em;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #000;
 	text-align: center;
-	font-size: 24px;
-	color: #FFF8E0;
 }
 
-p {
-	color: #0580B1;
-	font-size: 1.5em;
-	font-family: 'Nixie One', cursive;
-}
-
-ul {
-	text-align: left;
-	color: #0580B1;
-	font-size: 1.8em;
-	font-family: 'Nixie One', cursive;
-}
-
-a {
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	background-color: #000;
 	text-align: center;
+	font-weight: lighter;
+	margin-top: -3.2%;
+	letter-spacing: .51em;
+}
+
+#header {
+	color: #FFF;
+	background-color: #000;
+	display: block;
+	float: center;
+	width: 100%;
+	padding: 1em 3em 3em 3em;
+	margin: 0 0;
+}
+
+nav {
+	font-size: .9em;
+	text-align: center;
+	border-bottom: #000 solid thin;
+	border-bottom-width: 100%;
+	font-family: "Open Sans", sans-serif;
+	margin: 0 auto;
+	font-weight: lighter;
+	letter-spacing: .05em;
+}
+
+nav a {
 	text-decoration: none;
-	color: #0580B1;
+	color: #000;
+	margin: 0 0;
+	padding: 1em .8em;
+	display: inline-block;
+}
+
+nav a:hover{
+	color: #3EA3B1;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+ }
+
+ #intro {
+ 	font-size: .8em;
+ 	padding: 1% .5% .5% .5%;
+ }
+
+ .images {
+ 	display: block;
+ 	float: left;
+ 	width: 24%;
+ 	margin: .5% .5%;
+ }
+
+ footer {
+ 	background-color: #000;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	padding: 1% 1%;
+ 	margin: 1% .5% .5% .5%;
+ 	color: #FFF;
+ 	font-size: .8em;
+ 	clear: both;
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+
+ @media only screen and (min-width: 481px) and (max-width: 768px) {
+ 	.images {
+ 		width: 49%;
+ 	}
+ }
+
+@media only screen and (max-width: 480px) {
+	.images {
+		float: none;
+		width: 99%;
+	}
+
+	body {
+		font-size: 13px;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+	
+	h2 {
+		font-size: .9em;
+	}
+
+	nav a {
+		display: block;
+		float: none;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin: 0;
+		padding: .25em 0;
+	}
+
+	#intro {
+		display: none;
+	}
 }
