@@ -16,6 +16,8 @@ h1 {
 	color: #FFF;
 	background-color: #000;
 	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 h2 {
@@ -25,16 +27,12 @@ h2 {
 	background-color: #000;
 	text-align: center;
 	font-weight: lighter;
-	margin-top: -3.2%;
 	letter-spacing: .51em;
 }
 
 #header {
 	color: #FFF;
 	background-color: #000;
-	display: block;
-	float: center;
-	width: 100%;
 	padding: 1em 3em 3em 3em;
 	margin: 0 0;
 }
@@ -43,7 +41,6 @@ nav {
 	font-size: .9em;
 	text-align: center;
 	border-bottom: #000 solid thin;
-	border-bottom-width: 100%;
 	font-family: "Open Sans", sans-serif;
 	margin: 0 auto;
 	font-weight: lighter;
@@ -94,11 +91,16 @@ nav a:hover{
  	clear: both;
  }
 
- a {
+footer a:hover{
+	color: #3EA3B1;
+}
+
+ footer a {
  	text-decoration: none;
+ 	color: #FFF;
  }
 
- @media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
  	.images {
  		width: 49%;
  	}
