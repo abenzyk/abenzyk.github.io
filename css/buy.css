@@ -17,6 +17,11 @@ h1 {
 	padding-top: 0;
 }
 
+h1 a {
+	text-decoration: none;
+	color: #000;
+}
+
 h2 {
 	font-family: "Open Sans", sans-serif;
 	font-size: 1em;
@@ -69,39 +74,44 @@ nav a:hover{
   height: 0;
  }
 
- #intro {
- 	font-size: 1.2em;
- 	padding: 0% .5% .5% .5%;
- 	font-family: 'Arapey', serif;
- }
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	padding: 0% .5% .5%. 5%;
+	font-size: 1.2em;
+	margin-left: 7%;
+}
+
+#whereto {
+	margin: 0 0 0 5%;
+	display: block;
+	float: left;
+}
+
+li {
+	margin: 0 0 1em 0;
+}
+
+li a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #000;
+}
+
+li a:hover {
+	color: #3EA3B1;
+}
+
+span {
+	font-weight: bold
+}
 
  .images {
  	display: block;
- 	float: left;
+ 	float: right;
  	width: 29.3333333333%;
- 	margin: 2% 2%;
+ 	margin: 0 2% 2% 2%;
  }
-
-#ab1 {
-	display: block;
-	float: left;
-	width: 29.3333333333%;
- 	margin: 2% 2%;
- 	text-align: center;
- 	text-decoration: none;
- 	color: #000;
- 	font-weight: bold;
-}
-
-#ab1 a:hover {
-	background-color: rgba(0, 0, 0, .6)
-}
-
-#ab1 {
-	width: 29.3333333333%;
-	margin: 2% 2%;
-	background-image: url(file:///Users/user/Desktop/abenzyk.github.io/images/home2.png);
-}
 
  footer {
  	background-color: #FFF;
@@ -118,7 +128,7 @@ footer a:hover{
 	color: #3EA3B1;
 }
 
- footer a {
+footer a {
  	text-decoration: none;
  	color: #000;
  }
@@ -155,9 +165,5 @@ footer a:hover{
 		font-weight: bold;
 		margin: 0;
 		padding: .25em 0;
-	}
-
-	#intro {
-		display: none;
 	}
 }

@@ -17,6 +17,11 @@ h1 {
 	padding-top: 0;
 }
 
+h1 a {
+	text-decoration: none;
+	color: #000;
+}
+
 h2 {
 	font-family: "Open Sans", sans-serif;
 	font-size: 1em;
@@ -69,39 +74,12 @@ nav a:hover{
   height: 0;
  }
 
- #intro {
- 	font-size: 1.2em;
- 	padding: 0% .5% .5% .5%;
- 	font-family: 'Arapey', serif;
- }
-
  .images {
  	display: block;
  	float: left;
  	width: 29.3333333333%;
  	margin: 2% 2%;
  }
-
-#ab1 {
-	display: block;
-	float: left;
-	width: 29.3333333333%;
- 	margin: 2% 2%;
- 	text-align: center;
- 	text-decoration: none;
- 	color: #000;
- 	font-weight: bold;
-}
-
-#ab1 a:hover {
-	background-color: rgba(0, 0, 0, .6)
-}
-
-#ab1 {
-	width: 29.3333333333%;
-	margin: 2% 2%;
-	background-image: url(file:///Users/user/Desktop/abenzyk.github.io/images/home2.png);
-}
 
  footer {
  	background-color: #FFF;
@@ -118,7 +96,7 @@ footer a:hover{
 	color: #3EA3B1;
 }
 
- footer a {
+footer a {
  	text-decoration: none;
  	color: #000;
  }
@@ -155,9 +133,5 @@ footer a:hover{
 		font-weight: bold;
 		margin: 0;
 		padding: .25em 0;
-	}
-
-	#intro {
-		display: none;
 	}
 }
