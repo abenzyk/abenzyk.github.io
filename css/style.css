@@ -1,6 +1,8 @@
 body {
 	font-size: 16px;
 	font-family: "Open Sans", sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 h1 {
@@ -91,18 +93,75 @@ nav a:hover{
  	text-decoration: none;
  	color: #000;
  	font-weight: bold;
+ 	background-image: url(https://abenzyk.github.io/images/home2.png);
+ 	background-size: 100%;
 }
 
 #ab1 a:hover {
-	background-color: rgba(0, 0, 0, .6)
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	text-decoration: none;
 }
 
-#ab1 {
+#ab1 a {
+	padding: 47% 0;
+	display: block;
+	text-align: center;
+	color: transparent;
+}
+
+
+#ab2 {
+	display: block;
+	float: left;
 	width: 29.3333333333%;
-	margin: 2% 2%;
-	background-image: url(file:///Users/user/Desktop/abenzyk.github.io/images/home2.png);
+ 	margin: 2% 2%;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	color: #000;
+ 	font-weight: bold;
+ 	background-image: url(https://abenzyk.github.io/images/home3.png);
+ 	background-size: 100%;
 }
 
+#ab2 a:hover {
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	text-decoration: none;
+}
+
+#ab2 a {
+	padding: 47% 0;
+	display: block;
+	text-align: center;
+	color: transparent;
+}
+
+#ab3 {
+	display: block;
+	float: left;
+	width: 29.3333333333%;
+ 	margin: 2% 2%;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	color: #000;
+ 	font-weight: bold;
+ 	background-image: url(https://abenzyk.github.io/images/home4.png);
+ 	background-size: 100%;
+}
+
+#ab3 a:hover {
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	text-decoration: none;
+}
+
+#ab3 a {
+	padding: 47% 0;
+	display: block;
+	text-align: center;
+	color: transparent;
+}
  footer {
  	background-color: #FFF;
  	text-decoration: none;
