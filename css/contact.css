@@ -1,0 +1,158 @@
+body {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Neucha', cursive;
+	font-weight: bold;
+	text-align: center;
+	font-size: 4.5em;
+	font-weight: bold;
+	color: #000;
+	background-color: #FFF;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #000;
+}
+
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #000;
+	background-color: #FFF;
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: .51em;
+}
+
+#header {
+	color: #000;
+	background-color: #FFF;
+	padding: 1em 3em 2em 3em;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+nav {
+	font-size: .9em;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	margin: 0 0;
+	padding: 0 0 .5em 0;
+	font-weight: lighter;
+	letter-spacing: .05em;
+	float: center;
+	background-color: #000;
+}
+
+nav a {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #000;
+	margin: 0 0;
+	padding: 1em 1.5em .5em 1.5em;
+	display: inline-block;
+}
+
+nav a:hover{
+	color: #3EA3B1;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+ }
+
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	padding: 0% .5% .5%. 5%;
+	font-size: 1.2em;
+	margin-left: 7%;
+}
+
+#amy {
+	margin: 0 0 0 5%;
+	display: block;
+	float: left;
+}
+
+
+span {
+	font-weight: bold
+}
+
+ .images {
+ 	display: block;
+ 	float: right;
+ 	width: 29.3333333333%;
+ 	margin: 0 2% 2% 2%;
+ }
+
+ footer {
+ 	background-color: #FFF;
+ 	text-decoration: none;
+ 	color: #000;
+ 	text-align: center;
+ 	padding: 1% 1%;
+ 	font-size: 1em;
+ 	clear: both;
+ 	border-top: solid thin;
+ }
+
+footer a:hover{
+	color: #3EA3B1;
+}
+
+footer a {
+ 	text-decoration: none;
+ 	color: #000;
+ }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+ 	.images {
+ 		width: 29.33333333333%;
+ 	}
+ }
+
+@media only screen and (max-width: 480px) {
+	.images {
+		float: none;
+		width: 96%;
+	}
+
+	body {
+		font-size: 13px;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+	
+	h2 {
+		font-size: .9em;
+	}
+
+	nav a {
+		display: block;
+		float: none;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin: 0;
+		padding: .25em 0;
+	}
+}
